@@ -1,0 +1,305 @@
+* {
+  border: border-box;
+}
+
+/* Title */
+.title {
+  font-family: sans-serif;
+  font-weight: bold;
+  padding-left: 12px;
+  padding-top: 12px;
+  height: 50px;
+}
+
+.titlename {
+  font-size: 20px;
+}
+
+.viewbutton {
+  display: inline-block;
+  background-color: blue;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 2px;
+  height: 36px;
+  width: 86px;
+  cursor: pointer;
+  align-content: right;
+}
+
+.avatar {
+  width: 200px;
+  height: 150px;
+  padding-left: 12px;
+}
+
+.name {
+  height: 50px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: flex;
+  margin-top: -10px;
+  flex-direction: column;
+}
+
+.products {
+  background-color: whitesmoke;
+}
+
+.productbox {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  padding-left: 12px;
+  padding-top: 8px;
+  width: 100%;
+  background-color: whitesmoke;
+}
+
+.boxcontainer {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  display: inline-block;
+  background-color: white;
+  width: 97%;
+  margin-left: 8px;
+  margin-top: 8px;
+}
+
+.box {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 2px;
+  padding-top: 12px;
+  background-color: white;
+}
+
+.gridbox {
+  align-items: center;
+  width: 300px;
+  height: 300px;
+  padding-top: 12px;
+  margin-right: -10px;
+}
+
+.price1 {
+  font-weight: bold;
+  padding-left: 8px;
+}
+
+.price2 {
+  text-decoration: line-through;
+  padding-left: 10px;
+  color: grey;
+}
+
+.brand {
+  color: grey;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+.details {
+  padding-left: 12px;
+  padding-right: 12px;
+  width: 250px;
+}
+
+.prices {
+  padding-bottom: 12px;
+  margin-top: -10px;
+}
+
+.button {
+  height: 12px;
+  border: none;
+  padding-right: 12px;
+  padding-top: 72px;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.scroll {
+  display: inline-block;
+  text-align: center;
+  background-color: whitesmoke;
+  height: 60px;
+  width: 24px;
+  border: none;
+}
+
+/* Product Menu */
+#laptopmenu {
+  display: flex;
+  overflow-x: scroll;
+  padding-left: 12px;
+}
+
+#laptopmenu::-webkit-scrollbar {
+  width: 0px;
+}
+
+#furnituremenu {
+  display: flex;
+  overflow-x: scroll;
+  padding-left: 12px;
+}
+
+.featuredmenu {
+  display: flex;
+  overflow-x: scroll;
+}
+
+#furnituremenu {
+  display: flex;
+  overflow-x: scroll;
+  padding-left: 12px;
+}
+
+#smartwatchmenu {
+  display: flex;
+  overflow-x: scroll;
+  paddding-left: 12px;
+}
+
+.avatarwatch {
+  width: 170px;
+  height: 150px;
+  padding-left: 24px;
+}
+
+#mobilemenu {
+  display: flex;
+  overflow-x: scroll;
+  padding-left: 12px;
+}
+
+.avatarmob {
+  width: 170px;
+  height: 150px;
+  padding-left: 36px;
+}
+
+.splitouterbox {
+  padding-left: 12px;
+}
+
+.splitinnerbox {
+  display: flex;
+  width: 99%;
+  background-color: white;
+}
+
+.boxcontainermini {
+  display: flex;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  background-color: white;
+  margin-left: 8px;
+  margin-top: 8px;
+}
+
+.leftbox {
+  width: 50%;
+  background-color: white;
+}
+
+.rightbox {
+  width: 50%;
+}
+
+.leftminibox {
+  display: flex;
+  width: 50%;
+  height: 97%;
+}
+
+.rightminibox {
+  display: flex;
+  background-color: white;
+  width: 50%;
+  height: 97%;
+}
+
+.leftminibox img {
+  height: 300px;
+  width: 225px;
+  margin-left: 8px;
+  margin-top: 32px;
+}
+
+.rightminibox img {
+  height: 300px;
+  width: 225px;
+}
+
+.detailcontainer {
+  justify-content: space-between;
+  padding-left: 12px;
+}
+
+.namedetail {
+  padding-top: 12px;
+  height: 58px;
+  overflow-y: hidden;
+  text-align: center;
+}
+
+.pricesmini {
+  margin-top: -18px;
+  text-align: center;
+}
+
+.offer {
+  font-weight: bold;
+  color: green;
+  padding-left: 8px;
+}
+
+#decorationmenu {
+  display: flex;
+  overflow-x: scroll;
+  padding-left: 12px;
+}
+
+/* Description */
+.descriptiontitlediv {
+  font-family: sans-serif;
+  font-weight: bold;
+  padding-left: 18px;
+  padding-top: 8px;
+  height: 28px;
+}
+
+.descriptiontitlespan {
+  font-size: 14px;
+  color: grey;
+  font-weight: bold;
+}
+
+.descriptionpara {
+  font-size: 12px;
+  color: grey;
+  padding-top: 12px;
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+#laptopmenu::-webkit-scrollbar {
+  width: 0px;
+}
+
+#furnituremenu::-webkit-scrollbar {
+  width: 0px;
+}
+.featuredmenu::-webkit-scrollbar {
+  width: 0px;
+}
+
+#smartwatchmenu::-webkit-scrollbar {
+  width: 0px;
+}
+#mobilemenu::-webkit-scrollbar {
+  width: 0px;
+}
+#decorationmenu::-webkit-scrollbar {
+  width: 0px;
+}
